@@ -1,0 +1,19 @@
+1)
+function isEmpty(obj) { for (let key in obj) { 
+    return false; 
+} 
+return true; 
+}
+
+2)
+let salaries = {
+     Bogdan: 120, 
+     Oleg: 170, 
+     Ivan: 100 
+    }; 
+
+    let sum = 0;
+    for (let key in salaries) {
+          sum += salaries[key]; 
+        } 
+    alert(sum); // 390
